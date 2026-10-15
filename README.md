@@ -1,4 +1,4 @@
-# Hi there, I'm Rohan! 👋
+# Hi there, I'm Rohit! 👋
 
 Welcome to my GitHub profile!
 
