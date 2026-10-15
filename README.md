@@ -1,91 +1,147 @@
-# Rohit Mainkar — Developer Portfolio
+# 👋 Hi, I'm Rohit Mainkar
 
-A responsive React portfolio website for showcasing full-stack development skills and projects.
+### Full Stack Developer | React.js | Python | FastAPI | AI Applications
 
-## Tech stack
-- React
-- Vite
-- JavaScript
-- CSS
-- Lucide icons
+I’m a Full Stack Developer with approximately **5 years of software development experience**, including around 3 years working with React.js and 2 years with Python.
 
-## Run locally
+I build business applications, REST APIs, ERP and POS systems, database-driven services, third-party integrations, and AI-powered applications. I enjoy solving real-world business problems by developing reliable, maintainable, and scalable software.
 
-Requirements: Node.js 18+ (a current LTS release is recommended).
+🌐 **Portfolio:** [View My Portfolio](https://rmainkar-001.github.io/)  
+💻 **GitHub:** [rmainkar-001](https://github.com/rmainkar-001)  
+💼 **LinkedIn:** [Add your LinkedIn profile URL]  
+📧 **Email:** [Add your professional email]
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Open the local URL printed by Vite.
+## 🛠️ Technical Skills
 
-## Build for production
+**Frontend**
+- React.js, JavaScript, HTML5, CSS3
+- Responsive UI development and API integration
 
-```bash
-npm run build
-npm run preview
-```
+**Backend**
+- Python, FastAPI, REST API development
+- SQLAlchemy, Pydantic, asynchronous programming
+- Microservices and backend service integration
 
-The production site is generated in `dist/`.
+**Databases**
+- MySQL, PostgreSQL, SQLite
+- SQL queries, database design, relationships, and migrations
 
-## Publish with GitHub Pages
+**AI & Data Applications**
+- LlamaIndex
+- SQL AI Agent development
+- AI chat APIs and database-connected applications
 
-### Recommended: use GitHub Actions
-1. Create a public repository named `rmainkar-001.github.io` if you want the site at `https://rmainkar-001.github.io`.
-2. Upload the contents of this project to that repository.
-3. In the repository, open **Settings → Pages** and choose **GitHub Actions** as the build/deployment source.
-4. Add the workflow below at `.github/workflows/deploy.yml`.
-5. Push to `main`. After the workflow completes, visit `https://rmainkar-001.github.io`.
+**Messaging & Integrations**
+- Apache Kafka, MQTT, WebSockets
+- Third-party API integration
+- Event-driven workflows and real-time status updates
 
-Create `.github/workflows/deploy.yml` with:
+**Tools**
+- Git, GitHub, Postman, Docker, Alembic, Uvicorn
 
-```yaml
-name: Deploy portfolio to GitHub Pages
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: true
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm install
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
-```
+---
 
-If you prefer to keep the repository named `portfolio`, the GitHub Pages URL is usually `https://rmainkar-001.github.io/portfolio/`; Vite's `base` setting must then be configured to `/portfolio/` in `vite.config.js`.
+## 🚀 Featured Projects
 
-## Personalize before publishing
+### 1. FoodERP — ERP & Business Management System
 
-Search the project for these placeholders and update them:
-- `your-email@example.com` — your actual professional email
-- `https://www.linkedin.com/` — your exact LinkedIn profile URL
-- Project entries marked **details to confirm** — replace with your real responsibilities, stack, and outcomes
-- Add a downloadable resume only if you want one linked from the site
+Developed and worked on ERP functionality supporting day-to-day food business operations.
 
-The portfolio uses project summaries based on the information currently available. Do not publish unverified project claims or confidential company information.
+- Sales and purchase management workflows.
+- Inventory and stock-related operations.
+- Integration of business modules with backend APIs and databases.
+- Support for interconnected ERP workflows and data consistency.
+
+**Technologies:** React.js, Python, FastAPI, SQL, relational databases.
+
+### 2. POS Billing Software — Billing & Sales Operations
+
+Worked on POS billing software designed to support restaurant and retail-style business transactions.
+
+- Billing and sales workflows.
+- Product and item-related operations.
+- Integration between application screens, backend services, and database records.
+- Troubleshooting application and transaction-related issues.
+
+**Technologies:** React.js, Python, SQL, REST APIs.
+
+### 3. Online Food Aggregator Integration Platform
+
+Worked on an integration and management platform connecting restaurant POS operations with online food delivery aggregators such as Swiggy and Zomato.
+
+- Store ON/OFF and real-time store status integrations.
+- Menu and item management workflows.
+- API request/response validation and integration troubleshooting.
+- Aggregator UAT testing and store configuration handling.
+- Backend service workflows for order and notification processing.
+
+**Technologies:** Python, FastAPI, REST APIs, SQL, Kafka, WebSockets.
+
+### 4. AI SQL Agent
+
+Worked on an AI-powered SQL application using LlamaIndex to support interaction with database information through natural-language queries.
+
+- AI application and database integration.
+- SQL-focused question-and-answer workflows.
+- Backend development and troubleshooting of data interactions.
+
+**Technologies:** Python, LlamaIndex, SQL, AI integration.
+
+### 5. Food Menu Manager
+
+Worked on menu assignment and item control functionality for organization, merchant, and aggregator-level configurations.
+
+- Menu assignment and item management.
+- Assignment precedence and fallback logic.
+- Backend repositories and database relationships.
+- Schema validation and data-loading troubleshooting.
+
+**Technologies:** FastAPI, SQLAlchemy, PostgreSQL, Python.
+
+### 6. SCM ERP — Supply Chain Management
+
+A separate ERP project focused on supply-chain business workflows.
+
+**Focus:** ERP application development and business process management.
+
+### 7. TakPro — SOP & Task Management
+
+A separate application for SOP management, reminders, and organization-level task tracking.
+
+**Focus:** Task workflows, reminders, and operational management.
+
+### 8. ERP AI Chat Service
+
+Worked on backend APIs for AI chat functionality within an ERP application.
+
+- Chat conversation management.
+- Streaming AI query endpoints.
+- Database-backed conversation records.
+
+**Technologies:** Python, FastAPI, SQL databases, streaming APIs.
+
+---
+
+## 💡 What I Bring to a Team
+
+- Full-stack development across frontend and backend.
+- Experience building business-oriented ERP and POS applications.
+- REST API design, integration, testing, and debugging.
+- SQL database development and data-driven workflows.
+- Third-party platform integration and real-time communication.
+- Practical experience exploring AI-powered database applications.
+
+---
+
+## 📫 Let's Connect
+
+I'm interested in opportunities involving **Full Stack Development, React.js, Python, FastAPI, backend engineering, and AI-enabled applications**.
+
+- **Portfolio:** https://rmainkar-001.github.io/
+- **GitHub:** https://github.com/rmainkar-001
+- **LinkedIn:** Add your LinkedIn URL
+- **Email:** Add your professional email
+
+Thanks for visiting my profile! 🚀
